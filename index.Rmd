@@ -67,6 +67,8 @@ This graduate school will take place from June 23 to 29, 2022. Most courses will
 - Geometric morphometrics with R
 - Some more advanced topics in morphometrics
 
+An [indicative schedule](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/schedule.html) is also available.
+
 ## Corrections {.appendix}
 
 To fix typos or to suggest changes in this website, please 
