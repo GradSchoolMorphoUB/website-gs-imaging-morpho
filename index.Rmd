@@ -56,58 +56,16 @@ The aim of this five-day graduate school, organized by the
 [University of Bordeaux](https://sites.google.com/site/gdrecostat/), 
 is to train Master's students, PhD students and young researchers in 3D imaging and morphometrics, applied to biological anthropology and archaeological sciences.
 
-## Schedule
+This graduate school will take place from June 23 to 29, 2022. Most courses will be given in French, except a few specific keynotes given by invited speakers.
 
-### Day 1 (Thursday, June 23, 2022)
-```{r echo=FALSE}
-library(flextable)
-dat <- read.csv2("schedule/day1.csv", check.names = FALSE) |>
-    flextable() |>
-    merge_v(j = ~ Schedule) |>
-    theme_vanilla()
+### Contents
 
-set_table_properties(dat, width = 1, layout = "autofit")
-```
-
-### Day 2 (Friday, June 24, 2022)
-```{r echo=FALSE}
-dat <- read.csv2("schedule/day2.csv", check.names = FALSE) |>
-    flextable() |>
-    merge_v(j = ~ Schedule) |>
-    theme_vanilla()
-
-set_table_properties(dat, width = 1, layout = "autofit")
-```
-### Day 3 (Monday, June 27, 2022)
-```{r echo=FALSE}
-dat <- read.csv2("schedule/day3.csv", check.names = FALSE) |>
-    flextable() |>
-    merge_v(j = ~ Schedule) |>
-    theme_vanilla()
-
-set_table_properties(dat, width = 1, layout = "autofit")
-```
-
-### Day 4 (Tuesday, June 28, 2022)
-```{r echo=FALSE}
-dat <- read.csv2("schedule/day4.csv", check.names = FALSE) |>
-    flextable() |>
-    merge_v(j = ~ Schedule) |>
-    theme_vanilla()
-
-set_table_properties(dat, width = 1, layout = "autofit")
-```
-
-### Day 5 (Tuesday, June 29, 2022)
-```{r echo=FALSE}
-dat <- read.csv2("schedule/day5.csv", check.names = FALSE) |>
-    flextable() |>
-    merge_v(j = ~ Schedule) |>
-    theme_vanilla()
-
-set_table_properties(dat, width = 1, layout = "autofit")
-```
-
+- Data acquisition (2D / 3D): theory
+- Segmentation: theory and practice
+- Acquisition of 3D landmark data in practice
+- General introduction to morphometrics
+- Geometric morphometrics with R
+- Some more advanced topics in morphometrics
 
 ## Corrections {.appendix}
 
