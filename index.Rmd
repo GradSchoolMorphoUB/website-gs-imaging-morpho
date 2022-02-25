@@ -1,0 +1,72 @@
+---
+title: "Graduate School 3D Imaging and Geometric Morphometrics"
+description: |
+  Organized by UMR 5199 PACEA and the University of Bordeaux.
+author:
+  - name: Priscilla Bayle
+    affiliation: Univ. Bordeaux, UMR 5199 PACEA
+    url: https://www.pacea.u-bordeaux.fr/bayle-priscilla/
+    orcid_id: 0000-0002-9043-3699
+  - name: Christine Couture
+    affiliation: Univ. Bordeaux, UMR 5199 PACEA
+    url: https://www.researchgate.net/profile/Christine-Couture-Veschambre
+    orcid_id: 0000-0003-0101-1716
+  - name: Yann Heuzé
+    affiliation: CNRS, UMR 5199 PACEA
+    url: https://www.researchgate.net/profile/Yann-Heuze
+    orcid_id: 0000-0002-0660-9613
+  - name: Adeline Le Cabec
+    affiliation: CNRS, UMR 5199 PACEA
+    url: https://www.pacea.u-bordeaux.fr/le-cabec-adeline/
+    orcid_id: 0000-0001-6948-4726
+  - name: Laura Maréchal
+    affiliation: Univ. Bordeaux, UMR 5199 PACEA
+    url: https://www.researchgate.net/profile/Laura-Marechal-2
+    orcid_id: 0000-0001-7728-5196
+  - name: Frédéric Santos
+    affiliation: CNRS, UMR 5199 PACEA
+    url: https://gitlab.com/f-santos
+    orcid_id: 0000-0003-1445-3871
+  - name: Alexandra Schuh
+    affiliation: CNRS, UMR 5199 PACEA
+    url: https://www.researchgate.net/profile/Alexandra-Schuh
+    orcid_id: 0000-0003-1645-1220
+  - name: Antoine Souron
+    affiliation: Univ. Bordeaux, UMR 5199 PACEA
+    url: https://www.researchgate.net/profile/Antoine-Souron
+    orcid_id: 0000-0001-7384-4974
+  - name: Nicolas Vanderesse
+    affiliation: CNRS, UMR 5199 PACEA
+    url: https://www.researchgate.net/profile/Nicolas-Vanderesse
+    orcid_id: 0000-0001-8698-8707
+  - name: Clément Zanolli
+    affiliation: CNRS, UMR 5199 PACEA
+    url: https://www.researchgate.net/profile/Clement-Zanolli-2
+    orcid_id: 0000-0002-5617-1613  
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+The aim of this five-day graduate school, organized by the 
+[UMR 5199 PACEA](https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/) and supported by the
+[University of Bordeaux](https://sites.google.com/site/gdrecostat/), 
+is to train Master's students, PhD students and young researchers in 3D imaging and morphometrics, applied to biological anthropology and archaeological sciences.
+
+## Schedule
+
+Later.
+
+## Corrections {.appendix}
+
+To fix typos or to suggest changes in this website, please 
+[create an issue](https://github.com/GradSchoolMorphoUB/website-gs-imaging-morpho)
+on our GitHub repository.
+
+## License {.appendix}
+
+The material of this website is licensed under Creative Commons Attribution 
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).

@@ -1,0 +1,15 @@
+name: "website-gs-imaging-morpho"
+title: "Graduate School 3D Imaging and Geometric Morphometrics"
+description: |
+  Graduate School 3D Imaging and Geometric Morphometrics
+output_dir: "docs"
+navbar:
+  logo:
+    image: images/logo_pacea.png
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+  source_url: https://github.com/GradSchoolMorphoUB/website-gs-imaging-morpho
+output: distill::distill_article
