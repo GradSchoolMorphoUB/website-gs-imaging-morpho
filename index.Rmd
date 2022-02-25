@@ -64,9 +64,9 @@ library(flextable)
 dat <- read.csv2("schedule/day1.csv", check.names = FALSE) |>
     flextable() |>
     merge_v(j = ~ Schedule) |>
-    theme_vanilla() |>
-    set_table_properties(layout = "autofit")
-dat
+    theme_vanilla()
+
+set_table_properties(dat, width = 1, layout = "autofit")
 ```
 
 
