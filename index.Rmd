@@ -58,7 +58,17 @@ is to train Master's students, PhD students and young researchers in 3D imaging 
 
 ## Schedule
 
-Later.
+### Day 1 (Thursday, June 23, 2022)
+```{r echo=FALSE}
+library(flextable)
+dat <- read.csv2("schedule/day1.csv", check.names = FALSE) |>
+    flextable() |>
+    merge_v(j = ~ Schedule) |>
+    theme_vanilla() |>
+    set_table_properties(layout = "autofit")
+dat
+```
+
 
 ## Corrections {.appendix}
 
