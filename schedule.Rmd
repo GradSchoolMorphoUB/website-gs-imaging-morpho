@@ -58,7 +58,7 @@ dat <- read.csv2("schedule/day4.csv", check.names = FALSE) |>
 set_table_properties(dat, width = 1, layout = "autofit")
 ```
 
-## Day 5 (Tuesday, June 29, 2022)
+## Day 5 (Wednesday, June 29, 2022)
 ```{r echo=FALSE}
 dat <- read.csv2("schedule/day5.csv", check.names = FALSE) |>
     flextable() |>
