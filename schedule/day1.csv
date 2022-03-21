@@ -1,9 +1,12 @@
 Schedule;Course;Speaker(s)
-09:00 – 10:00;Welcome and general introduction;Priscilla Bayle, Christine Couture, Frédéric Santos
-10:00 – 12:00;Keynote speak;Invited speaker
+08:30 – 09:15;Welcome;Priscilla Bayle, Christine Couture, Frédéric Santos
+09:15 – 10:15;General introduction: 3D imaging in archaeological sciences ;Priscilla Bayle, Yann Heuzé
+10:15 – 12:00;Data acquisition: general theory;Yann Heuzé, Adeline Le Cabec, Antoine Souron, Nicolas Vanderesse
 12:00 – 13:30;Lunch break;
-13:30 – 15:00;Group 1: Data acquisition (theory);Yann Heuzé, Adeline Le Cabec, Nicolas Vanderesse
-13:30 – 15:00;Group 2: R fundamentals for morphometrics;Frédéric Santos
-15:00 – 15:15;Coffee break;
-15:15 – 17:00;Group 1: Data acquisition (theory);Yann Heuzé, Adeline Le Cabec, Nicolas Vanderesse
-15:15 – 17:00;Group 2: R fundamentals for morphometrics;Frédéric Santos
+13:30 – 14:45;Group 1: 3D data acquisition (theory);Adeline Le Cabec, Nicolas Vanderesse
+13:30 – 14:45;Group 2: 2D data acquisition (theory);Antoine Souron
+14:45 – 15:00;Coffee break;
+15:00 – 16:15;Group 1: 2D data acquisition (theory);Antoine Souron
+15:00 – 16:15;Group 2: 3D data acquisition (theory);Adeline Le Cabec, Nicolas Vanderesse
+16:15 – 16:30;Coffee break;
+16:30 – 17:00;Data acquisition: summary;Yann Heuzé, Adeline Le Cabec, Antoine Souron, Nicolas Vanderesse

@@ -1,10 +1,8 @@
 Schedule;Course;Speaker(s)
-08:45 – 10:30;Group 1: R fundamentals for morphometrics;Frédéric Santos
-08:45 – 10:30;Group 2: Data acquisition (theory);Yann Heuzé, Adeline Le Cabec, Antoine Souron, Nicolas Vanderesse
-10:30 – 10:45;Coffee break;
-10:45 – 12:15;Group 1: R fundamentals for morphometrics;Frédéric Santos
-10:45 – 12:15;Group 2: Data acquisition (theory);Yann Heuzé, Adeline Le Cabec, Antoine Souron, Nicolas Vanderesse
-12:15 – 13:45;Lunch break;
-13:45 – 15:15;Data acquisition (segmentation);Priscilla Bayle, Yann Heuzé
+08:30 – 10:00;Data acquisition : segmentation (part I);Priscilla Bayle, Yann Heuzé
+10:00 – 10:15;Coffee break;
+10:15 – 12:00;Data acquisition : segmentation (part II);Priscilla Bayle, Yann Heuzé
+12:00 – 13:30;Lunch break;
+13:30 – 15:15;R fundamentals for morphometrics (part I);Frédéric Santos
 15:15 – 15:30;Coffee break;
-15:30 – 17:00;Data acquisition (segmentation);Priscilla Bayle, Yann Heuzé
+15:30 – 17:00;R fundamentals for morphometrics (part II);Frédéric Santos
