@@ -77,5 +77,5 @@ on our GitHub repository.
 
 ## License {.appendix}
 
-The material of this website is licensed under Creative Commons Attribution 
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+The material available on this website is published under a Creative Commons Attribution-NonCommercial-ShareAlike license
+[(CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by/4.0/).
