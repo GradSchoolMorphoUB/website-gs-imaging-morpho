@@ -69,6 +69,8 @@ This graduate school will take place from June 23 to 29, 2022. Most courses will
 
 An [indicative schedule](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/schedule.html) is also available.
 
+To participate in this graduate school, please make sure that [all necessary software](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/install.html) are installed on your personal computer.
+
 ## Corrections {.appendix}
 
 To fix typos or to suggest changes in this website, please 
