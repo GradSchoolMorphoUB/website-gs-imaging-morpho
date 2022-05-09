@@ -22,11 +22,11 @@ To handle, visualize or edit the data files, you will need a spreadsheet (such a
 Although [Git](https://git-scm.com/downloads) will not be used by itself, it will be necessary to install some R packages below.
 
 ## R
-Please make sure that you have the *latest* version of R installed on your computer. It can be downloaded from the [official R website](https://cran.r-project.org/).
+Please make sure that you have the *latest* version of R installed on your computer (>= 4.2.0). It can be downloaded from the [official R website](https://cran.r-project.org/).
 
 ## Complementary build environment (for Mac or Windows users only)
 - Mac OS: install [XCODE](https://developer.apple.com/xcode/) and [Xquartz](https://www.xquartz.org/).
-- Windows: install [Rtools](https://cran.r-project.org/bin/windows/Rtools/rtools42/rtools.html). 
+- Windows: install [Rtools](https://cran.r-project.org/bin/windows/Rtools/rtools42/rtools.html) in its latest version (Rtools 4.2). 
 
 Note that Linux users have nothing to install for this step.
 
