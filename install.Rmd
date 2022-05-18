@@ -15,14 +15,19 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The practical applications will be (partly) performed on your personal computer. Before the first day of class, make sure you have installed the following software.
 
-## Usual office software
-To handle, visualize or edit the data files, you will need a spreadsheet (such as [LibreOffice Calc](https://www.libreoffice.org/download/download/), that we strongly recommend), and a good text editor (e.g., [Notepad++](https://notepad-plus-plus.org/) for Windows, [Atom](https://atom.io/) or [SublimeText](http://www.sublimetext.com/download) for other platforms).
+## Office software
+To handle, visualize or edit the data files, you will need:
+
+- a spreadsheet (such as [LibreOffice Calc](https://www.libreoffice.org/download/download/), that we strongly recommend)
+- a good text editor (e.g., [Notepad++](https://notepad-plus-plus.org/) for Windows, [Atom](https://atom.io/) or [SublimeText](http://www.sublimetext.com/download) for other platforms).
 
 ## Git
-Although [Git](https://git-scm.com/downloads) will not be used by itself, it will be necessary to install some R packages below.
+Although [Git](https://git-scm.com/downloads) will not be used by itself, it will be necessary to install some R packages below, or to download ("*clone*") Git repositories online.
 
 ## R
 Please make sure that you have the *latest* version of R installed on your computer (>= 4.2.0). It can be downloaded from the [official R website](https://cran.r-project.org/).
+
+If you currently have an older version installed, please uninstall it and download the latest version instead.
 
 ## Complementary build environment (for Mac or Windows users only)
 - Mac OS: install [XCODE](https://developer.apple.com/xcode/) and [Xquartz](https://www.xquartz.org/).
