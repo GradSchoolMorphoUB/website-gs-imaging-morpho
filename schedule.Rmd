@@ -17,7 +17,7 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Day 1 (Thursday, June 23, 2022; @B5, PABA)
+## Day 1 (Thursday, June 23; Bât. B5, PABA)
 ```{r echo=FALSE}
 library(flextable)
 dat <- read.csv2("schedule/day1.csv", check.names = FALSE) |>
@@ -28,7 +28,7 @@ dat <- read.csv2("schedule/day1.csv", check.names = FALSE) |>
 set_table_properties(dat, width = 1, layout = "autofit")
 ```
 
-## Day 2 (Friday, June 24, 2022; @B5, PABA)
+## Day 2 (Friday, June 24; Bât. B5, PABA)
 ```{r echo=FALSE}
 dat <- read.csv2("schedule/day2.csv", check.names = FALSE) |>
     flextable() |>
@@ -38,7 +38,7 @@ dat <- read.csv2("schedule/day2.csv", check.names = FALSE) |>
 set_table_properties(dat, width = 1, layout = "autofit")
 ```
 
-## Day 3 (Monday, June 27, 2022; @B6, Amphi)
+## Day 3 (Monday, June 27; Bât. B6, Amphi)
 ```{r echo=FALSE}
 dat <- read.csv2("schedule/day3.csv", check.names = FALSE) |>
     flextable() |>
@@ -48,7 +48,7 @@ dat <- read.csv2("schedule/day3.csv", check.names = FALSE) |>
 set_table_properties(dat, width = 1, layout = "autofit")
 ```
 
-## Day 4 (Tuesday, June 28, 2022; @B6, Amphi)
+## Day 4 (Tuesday, June 28; Bât. B6, Amphi)
 ```{r echo=FALSE}
 dat <- read.csv2("schedule/day4.csv", check.names = FALSE) |>
     flextable() |>
@@ -58,7 +58,7 @@ dat <- read.csv2("schedule/day4.csv", check.names = FALSE) |>
 set_table_properties(dat, width = 1, layout = "autofit")
 ```
 
-## Day 5 (Wednesday, June 29, 2022; @B6, Amphi)
+## Day 5 (Wednesday, June 29; Bât. B6, Amphi)
 ```{r echo=FALSE}
 dat <- read.csv2("schedule/day5.csv", check.names = FALSE) |>
     flextable() |>
