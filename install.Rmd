@@ -39,11 +39,14 @@ Note that Linux users have nothing to install for this step.
 Run the following commands into the R console to install some useful packages:
 
 ```{r eval=FALSE, echo=TRUE, warning=FALSE}
-install.packages(c("car", "corrplot", "devtools", "epiR",
+install.packages(c("ade4", "car", "corrplot", "devtools", "epiR",
                    "factoextra", "FactoMineR", "geomorph", "ggpubr",
-                   "irr", "lattice", "MASS", "Morpho", "tidyverse"),
+                   "irr", "lattice", "MASS", "Morpho", "rgl", "Rvcg",
+                   "tidyverse"),
                  dep = TRUE, repos = "https://cran.wu.ac.at/")
-devtools::install_github("MomX/Momocs")
+remotes::install_git('https://gitlab.com/f-santos/anthrostat.git')
+remotes::install_github("zarquon42b/mesheR")
+remotes::install_github("MomX/Momocs")
 ```
 
 ## Help!
