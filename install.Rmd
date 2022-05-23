@@ -22,7 +22,37 @@ To handle, visualize or edit the data files, you will need:
 - a good text editor (e.g., [Notepad++](https://notepad-plus-plus.org/) for Windows, [Atom](https://atom.io/) or [SublimeText](http://www.sublimetext.com/download) for other platforms).
 
 ## Git
-Although [Git](https://git-scm.com/downloads) will not be used by itself, it will be necessary to install some R packages below, or to download ("*clone*") Git repositories online.
+### Download and install Git
+[Git](https://git-scm.com/downloads) will be necessary to install some R packages below.
+
+### Configuration
+Furthermore, to be able to download ("*clone*") Git repositories online, you will have to configure Git correctly.
+
+1. **Generate a SSH key**. In a terminal (for Linux or Mac OS), or in a Git Bash terminal (for Windows), execute the following command:
+   ```
+   ssh-keygen -t rsa -C "votre.email@univ.fr"
+   ```
+   where you just have to replace `votre.email@univ.fr` by your own email. **You must use here your email from the University of Bordeaux.**
+   Accept the default choice for the storage of the SSH key (proposed in the terminal by `Enter file in which to save the key`). Do *not* choose any passphrase, for it might make the subsequent steps more difficult. The process ends correctly if you get the final *randomart*.
+2. **Copy the SSH key in your clipboard**. Depending on your operating system:
+   - Linux users must execute the following command in a terminal:
+     ```
+     xclip -sel clip < ~/.ssh/id_rsa.pub
+     ```
+   - Mac OS users must execute the following command in a terminal:
+     ```
+     tr -d '\n' < ~/.ssh/id_rsa.pub | pbcopy
+     ```
+   - Windows users must execute the following command in a Git Bash terminal:
+     ```
+     cat ~/.ssh/id_rsa.pub | clip
+     ```
+3. **Add this SSH key to your GitUB account**. Log in to [your GitUB account](https://gitub.u-bordeaux.fr/users/sign_in) using the same username and password as for the ENT or UB Webmail. Then, visit your personal menu (topright), and click on Preferences. In the new webpage, click on SSH keys in the navigation bar on the left. In the field "Key", just paste your SSH key copied at the previous step. Choose an arbitrary title for the SSH key, and then click on the button "Add key".
+4. **Check that everything is okay**. To check that your SSH key is correctly taken into account, execute the following command in a terminal (Linux or Mac OS), or in a Git Bash terminal (Windows):
+   ```
+   ssh -T git@gitub.u-bordeaux.fr
+   ```
+   If you get the message "Welcome to GitLab!", the install process was done correctly. (You might also get a warning message about "authorized administrators UB only", which is meaningless.)
 
 ## R
 Please make sure that you have the *latest* version of R installed on your computer (>= 4.2.0). It can be downloaded from the [official R website](https://cran.r-project.org/).

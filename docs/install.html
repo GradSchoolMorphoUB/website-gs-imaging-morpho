@@ -93,8 +93,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2022-05-19"/>
-  <meta property="article:created" itemprop="dateCreated" content="2022-05-19"/>
+  <meta property="article:published" itemprop="datePublished" content="2022-05-23"/>
+  <meta property="article:created" itemprop="dateCreated" content="2022-05-23"/>
   <meta name="article:author" content="Frédéric Santos"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
@@ -111,7 +111,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Required software"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation","url","orcid_id"]}},"value":[{"type":"character","attributes":{},"value":["Frédéric Santos"]},{"type":"character","attributes":{},"value":["CNRS, UMR 5199 PACEA"]},{"type":"character","attributes":{},"value":["https://gitlab.com/f-santos"]},{"type":"character","attributes":{},"value":["0000-0003-1445-3871"]}]}]},{"type":"character","attributes":{},"value":["2022-05-19"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Required software"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation","url","orcid_id"]}},"value":[{"type":"character","attributes":{},"value":["Frédéric Santos"]},{"type":"character","attributes":{},"value":["CNRS, UMR 5199 PACEA"]},{"type":"character","attributes":{},"value":["https://gitlab.com/f-santos"]},{"type":"character","attributes":{},"value":["0000-0003-1445-3871"]}]}]},{"type":"character","attributes":{},"value":["2022-05-23"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2088,7 +2088,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Required software","authors":[{"author":"Frédéric Santos","authorURL":"https://gitlab.com/f-santos","affiliation":"CNRS, UMR 5199 PACEA","affiliationURL":"#","orcidID":"0000-0003-1445-3871"}],"publishedDate":"2022-05-19T00:00:00.000+02:00","citationText":"Santos, 2022"}
+{"title":"Required software","authors":[{"author":"Frédéric Santos","authorURL":"https://gitlab.com/f-santos","affiliation":"CNRS, UMR 5199 PACEA","affiliationURL":"#","orcidID":"0000-0003-1445-3871"}],"publishedDate":"2022-05-23T00:00:00.000+02:00","citationText":"Santos, 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2127,7 +2127,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   Frédéric Santos <a href="https://gitlab.com/f-santos"
 class="uri">https://gitlab.com/f-santos</a> (CNRS, UMR 5199 PACEA)
   
-<br/>2022-05-19
+<br/>2022-05-23
 </div>
 
 <div class="d-article">
@@ -2147,9 +2147,54 @@ href="http://www.sublimetext.com/download">SublimeText</a> for other
 platforms).</li>
 </ul>
 <h2 id="git">Git</h2>
-<p>Although <a href="https://git-scm.com/downloads">Git</a> will not be
-used by itself, it will be necessary to install some R packages below,
-or to download (“<em>clone</em>”) Git repositories online.</p>
+<h3 id="download-and-install-git">Download and install Git</h3>
+<p><a href="https://git-scm.com/downloads">Git</a> will be necessary to
+install some R packages below.</p>
+<h3 id="configuration">Configuration</h3>
+<p>Furthermore, to be able to download (“<em>clone</em>”) Git
+repositories online, you will have to configure Git correctly.</p>
+<ol type="1">
+<li><p><strong>Generate a SSH key</strong>. In a terminal (for Linux or
+Mac OS), or in a Git Bash terminal (for Windows), execute the following
+command:</p>
+<pre><code>ssh-keygen -t rsa -C &quot;votre.email@univ.fr&quot;</code></pre>
+<p>where you just have to replace <code>votre.email@univ.fr</code> by
+your own email. <strong>You must use here your email from the University
+of Bordeaux.</strong> Accept the default choice for the storage of the
+SSH key (proposed in the terminal by
+<code>Enter file in which to save the key</code>). Do <em>not</em>
+choose any passphrase, for it might make the subsequent steps more
+difficult. The process ends correctly if you get the final
+<em>randomart</em>.</p></li>
+<li><p><strong>Copy the SSH key in your clipboard</strong>. Depending on
+your operating system:</p>
+<ul>
+<li><p>Linux users must execute the following command in a terminal:</p>
+<pre><code>xclip -sel clip &lt; ~/.ssh/id_rsa.pub</code></pre></li>
+<li><p>Mac OS users must execute the following command in a
+terminal:</p>
+<pre><code>tr -d &#39;\n&#39; &lt; ~/.ssh/id_rsa.pub | pbcopy</code></pre></li>
+<li><p>Windows users must execute the following command in a Git Bash
+terminal:</p>
+<pre><code>cat ~/.ssh/id_rsa.pub | clip</code></pre></li>
+</ul></li>
+<li><p><strong>Add this SSH key to your GitUB account</strong>. Log in
+to <a href="https://gitub.u-bordeaux.fr/users/sign_in">your GitUB
+account</a> using the same username and password as for the ENT or UB
+Webmail. Then, visit your personal menu (topright), and click on
+Preferences. In the new webpage, click on SSH keys in the navigation bar
+on the left. In the field “Key”, just paste your SSH key copied at the
+previous step. Choose an arbitrary title for the SSH key, and then click
+on the button “Add key”.</p></li>
+<li><p><strong>Check that everything is okay</strong>. To check that
+your SSH key is correctly taken into account, execute the following
+command in a terminal (Linux or Mac OS), or in a Git Bash terminal
+(Windows):</p>
+<pre><code>ssh -T git@gitub.u-bordeaux.fr</code></pre>
+<p>If you get the message “Welcome to GitLab!”, the install process was
+done correctly. (You might also get a warning message about “authorized
+administrators UB only”, which is meaningless.)</p></li>
+</ol>
 <h2 id="r">R</h2>
 <p>Please make sure that you have the <em>latest</em> version of R
 installed on your computer (&gt;= 4.2.0). It can be downloaded from the
@@ -2187,7 +2232,7 @@ packages:</p>
 <h2 id="help">Help!</h2>
 <p>For any assistance, please contact me (F. Santos) directly by
 e-mail.</p>
-<div class="sourceCode" id="cb1"><pre
+<div class="sourceCode" id="cb6"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
