@@ -21,6 +21,9 @@ To handle, visualize or edit the data files, you will need:
 - a spreadsheet (such as [LibreOffice Calc](https://www.libreoffice.org/download/download/), that we strongly recommend)
 - a good text editor (e.g., [Notepad++](https://notepad-plus-plus.org/) for Windows, [Atom](https://atom.io/) or [SublimeText](http://www.sublimetext.com/download) for other platforms).
 
+## MorphoJ
+[MorphoJ](https://morphometrics.uk/MorphoJ_page.html) is a free software for geometric morphometrics. It is available on all operating systems.
+
 ## Git
 ### Download and install Git
 [Git](https://git-scm.com/downloads) will be necessary to install some R packages below.
