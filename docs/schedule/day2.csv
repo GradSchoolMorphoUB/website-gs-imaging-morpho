@@ -1,8 +1,8 @@
-Schedule;Course;Speaker(s)
-08:30 – 10:00;Data acquisition : segmentation (part I);Priscilla Bayle, Yann Heuzé
-10:00 – 10:15;Coffee break;
-10:15 – 12:00;Data acquisition : segmentation (part II);Priscilla Bayle, Yann Heuzé
-12:00 – 13:30;Lunch break;
-13:30 – 15:15;R fundamentals for morphometrics (part I);Frédéric Santos
-15:15 – 15:30;Coffee break;
-15:30 – 17:00;R fundamentals for morphometrics (part II);Frédéric Santos
+Schedule;Course;Speaker(s);Room
+08:30 – 10:00;Data acquisition : segmentation (part I);Priscilla Bayle, Yann Heuzé;Imagerie @B8
+10:00 – 10:15;Coffee break;;
+10:15 – 12:00;Data acquisition : segmentation (part II);Priscilla Bayle, Yann Heuzé;Imagerie @B8
+12:00 – 13:30;Lunch break;;
+13:30 – 15:15;R fundamentals for morphometrics (part I);Frédéric Santos;PABA @B5
+15:15 – 15:30;Coffee break;;
+15:30 – 17:00;R fundamentals for morphometrics (part II);Frédéric Santos;PABA @B5
