@@ -13,7 +13,7 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-The practical applications will be (partly) performed on your personal computer. Before the first day of class, make sure you have installed the following software.
+The practical applications will be (partly) performed on your personal computer. Before the first day of class, make sure you have installed the following software. Also, please come with your mouse if you have one (using 3D imaging software with a trackpad is really uncomfortable).
 
 ## Office software
 To handle, visualize or edit the data files, you will need:
@@ -23,6 +23,12 @@ To handle, visualize or edit the data files, you will need:
 
 ## MorphoJ
 [MorphoJ](https://morphometrics.uk/MorphoJ_page.html) is a free software for geometric morphometrics. It is available on all operating systems.
+
+## 3DSlicer
+[3DSlicer](https://download.slicer.org/) is a free software for imaging research. It is available on all operating systems.
+
+## Viewbox (Optional)
+[Viewbox](http://www.dhal.com/download.htm) is a *non-free* software for imaging research. A limited version is available as a trial, and only for Windows users. For this reason, this download is optional (but still recommended if you can, as it will be used for the course about landmarks acquisition; see schedule for Day 3).
 
 ## Git
 ### Download and install Git
