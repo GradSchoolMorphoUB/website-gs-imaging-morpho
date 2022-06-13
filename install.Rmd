@@ -74,6 +74,9 @@ If you currently have an older version installed, please uninstall it and downlo
 
 Note that Linux users have nothing to install for this step.
 
+## Rstudio
+[Rstudio](https://www.rstudio.com/products/rstudio/download/#download) is an integrated development environment available for all operating systems.
+
 ## R packages
 Run the following commands into the R console to install some useful packages:
 
