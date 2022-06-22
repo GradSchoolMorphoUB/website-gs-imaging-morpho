@@ -1,0 +1,26 @@
+---
+title: "Courses"
+author:
+  - name: Frédéric Santos
+    affiliation: CNRS, UMR 5199 PACEA
+    url: https://gitlab.com/f-santos
+    orcid_id: 0000-0003-1445-3871
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+All the material (data files, R scripts, slides, etc.) presented and used during the graduate school can be found below.
+
+### R fundamentals for morphometrics (F. Santos)
+- [Companion website](https://f-santos.gitlab.io/r-pour-la-morphometrie/index.html)
+- [Additional Git repository hosting the data files](https://gitub.u-bordeaux.fr/fsantos/data-morpho)
+
+### Geometric morphometrics (L. Maréchal, C. Zanolli)
+- [Slides](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/resources/cours_j4.pptx)
+- [Data file](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/resources/Semilandmarks.csv)
+- [R script for GM analyses](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/resources/GM_analyses.R)
+- [Additional R file providing custom functions](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/resources/functions.R)

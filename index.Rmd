@@ -79,5 +79,5 @@ on our GitHub repository.
 
 ## License {.appendix}
 
-The material available on this website is published under a Creative Commons Attribution-NonCommercial-ShareAlike license
+The [material available on this website](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/courses.html) is published under a Creative Commons Attribution-NonCommercial-ShareAlike license
 [(CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by/4.0/).
