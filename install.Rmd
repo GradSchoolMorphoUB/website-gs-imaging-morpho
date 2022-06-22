@@ -84,11 +84,12 @@ Run the following commands into the R console to install some useful packages:
 install.packages(c("ade4", "car", "corrplot", "devtools", "epiR",
                    "factoextra", "FactoMineR", "geomorph", "ggpubr",
                    "irr", "lattice", "MASS", "Morpho", "rgl", "Rvcg",
-                   "tidyverse"),
+                   "scatterplot3d", "shapes", "tidyverse", "vegan"),
                  dep = TRUE, repos = "https://cran.wu.ac.at/")
 remotes::install_git('https://gitlab.com/f-santos/anthrostat.git')
 remotes::install_github("zarquon42b/mesheR")
 remotes::install_github("MomX/Momocs")
+remotes::install_github("pmartinezarbizu/pairwiseAdonis/pairwiseAdonis")
 ```
 
 ## Help!
