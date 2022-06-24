@@ -15,16 +15,20 @@ knitr::opts_chunk$set(echo = FALSE)
 
 All the material (data files, R scripts, slides, etc.) presented and used during the graduate school can be found below.
 
-### Welcome: presentation of PACEA and its ecosystem (P. Bayle, C. Couture)
-[Slides](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/resources/Day1_ChC_PB_FS_Intro.pdf)
+## Thursday, June 23
+### Welcome, presentation of PACEA and its ecosystem (P. Bayle, C. Couture)
+- [Flyer](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/resources/flyer_gm.pdf)
+- [Slides](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/resources/Day1_ChC_PB_FS_Intro.pdf)
 
 ### General introduction: 3D imaging in archaeological sciences (P. Bayle)
 [Slides](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/resources/Bayle_UBGS_June_2022_Intro.pdf)
 
+## Friday, June 24
 ### R fundamentals for morphometrics (F. Santos)
 - [Companion website](https://f-santos.gitlab.io/r-pour-la-morphometrie/index.html)
 - [Additional Git repository hosting the data files](https://gitub.u-bordeaux.fr/fsantos/data-morpho)
 
+## Tuesday, June 28
 ### Geometric morphometrics (L. Maréchal, C. Zanolli)
 - [Slides](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/resources/cours_j4.pptx)
 - [Data file](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/resources/Semilandmarks.csv)
