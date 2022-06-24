@@ -16,8 +16,8 @@ knitr::opts_chunk$set(echo = FALSE)
 All the material (data files, R scripts, slides, etc.) presented and used during the graduate school can be found below.
 
 ## Thursday, June 23
-### Welcome, presentation of PACEA and its ecosystem (P. Bayle, C. Couture)
-- [Flyer](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/resources/flyer_gm.pdf)
+### Welcome, presentation of PACEA and its ecosystem (P. Bayle, C. Couture, F. Santos)
+- [Flyer](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/resources/flyer_gm.pdf) (in French)
 - [Slides](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/resources/Day1_ChC_PB_FS_Intro.pdf)
 
 ### General introduction: 3D imaging in archaeological sciences (P. Bayle)
@@ -25,7 +25,7 @@ All the material (data files, R scripts, slides, etc.) presented and used during
 
 ## Friday, June 24
 ### R fundamentals for morphometrics (F. Santos)
-- [Companion website](https://f-santos.gitlab.io/r-pour-la-morphometrie/index.html)
+- [Companion website](https://f-santos.gitlab.io/r-pour-la-morphometrie/index.html) (in French)
 - [Additional Git repository hosting the data files](https://gitub.u-bordeaux.fr/fsantos/data-morpho)
 
 ## Tuesday, June 28
