@@ -23,6 +23,9 @@ All the material (data files, R scripts, slides, etc.) presented and used during
 ### General introduction: 3D imaging in archaeological sciences (P. Bayle)
 [Slides](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/resources/Bayle_UBGS_June_2022_Intro.pdf)
 
+### Data acquisition: general theory (A. Le Cabec, N. Vanderesse)
+[Git repository](https://gitub.u-bordeaux.fr/nvanderesse/grad-school-3d-imaging-microtomo-data-acquisition)
+
 ### 2D data acquisition (A. Souron)
 [Slides](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/resources/SOURON_GM.pdf)
 
